@@ -1,0 +1,160 @@
+body {
+    background-image: url("https://i.postimg.cc/JnrL8B7p/wp2726641-matrix-background-1920x1080-hd.jpg");
+}
+
+#main-container {
+    margin-top: 180px;
+}
+
+#title {
+    color: #e1dee1;
+    display: flex;
+    justify-content: center;
+    font-size: 120px;
+    font-style: bold;
+    text-transform: uppercase;
+}
+
+#title-container {
+    background: rgba(33, 33, 33, 0.8);
+    width: 40%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    border-radius: 15px;
+}
+
+#description {
+    color: #e1dee1;
+    display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+#description-container {
+    background: rgba(33, 33, 33, 0.8);
+    width: 30%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    border-radius: 15px;
+    margin-top: 80px;
+}
+
+#survey-form {
+    background: rgba(33, 33, 33, 0.8);
+    height: 170vh;
+    width: 52%;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.info-label {
+    color: #e1dee1;
+    font-size: 60px;
+    font-family: fantasy;
+    display: block;
+    padding-top: 50px;
+    margin-left: 100px;
+}
+
+.info-input {
+    display: block;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 90px;
+    font-size: 50px;
+}
+
+.lines {
+    border: 2px solid #e1dee1;
+    width: 95%;
+    margin-top: 88px;
+}
+
+.questions {
+    color: #e1dee1;
+    font-size: 60px;
+    font-family: fantasy;
+    display: block;
+    padding-top: 50px;
+    margin-left: 100px;
+}
+
+#dropdown {
+    display: block;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    width: 15%;
+    height: 90px;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.question-labels {
+    color: #e1dee1;
+    font-size: 60px;
+    display: block;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    font-family: fantasy;
+}
+
+input[type="radio"] {
+    width: 50px; 
+    height: 50px; 
+}
+
+input[type="radio"]:hover {
+    box-shadow: 0 0 10px rgba(23, 164, 19, 0.8); 
+}
+
+input[type="checkbox"] {
+    width: 50px; 
+    height: 50px; 
+}
+
+input[type="checkbox"]:hover {
+    box-shadow: 0 0 10px rgba(23, 164, 19, 0.8); 
+}
+
+#comment-suggestion-title {
+    color: #e1dee1;
+    font-size: 60px;
+    font-family: fantasy;
+    display: block;
+    padding-top: 50px;
+    margin-left: 100px;
+}
+
+textarea {
+    width: 90%;
+    height: 370px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    font-family: fantasy;
+    font-size: 60px;
+}
+
+#submit {
+    background-color: #17A413; 
+    color: #000000; 
+    font-size: 60px;
+    font-family: fantasy;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    display: block;
+    margin-left: 100px;
+    margin-top: 70px;
+    width: 90%;
+    height: 140px;
+}
+
+#submit:hover {
+    background-color: #009900; 
+}
